@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{width:1001px; margin:0 auto; margin-bottom:11px; margin-top:35px;}
+.left{width:737px; float:left;}
+.left .subnav a{font-family:Impact; font-size:12px; display:inline-block; color:#717670; line-height:40px;}
+.left .subnav a:hover{text-decoration:underline;}
+.left h2{width:250px; line-height:42px; font-size:20px; color:#ac2d1a; border-bottom:2px solid #ac2d1a;}
+.left h2 span{font-size:14px; color:#545455; padding-left:7px;}
+.left .pic{padding-left:20px; padding-top:60px; border-top:1px solid #e1e2e2;}
+.left .pic a{position:relative;}
+.left .pic a .tupian{display:none; width:680px; height:439px; background:rgba(255,255,255,0.5); position:absolute; top:0; left:0; }
+.left .pic :hover .tupian{display:block;}
+
+
+.right{float:left; width:220px; margin-left:30px; margin-top:10px;}
+.right h2{width:216px; font-size:22px; line-height:68px; color:#fefefe; text-align:center; background:#ac2d1a; border-bottom:2px solid #6b1e15;}
+.right p:nth-child(2){width:216px; font-size:12px; line-height:46px; text-align:center; background:#ac2d1a; border-bottom:1px solid #fefefe;}
+.right p:nth-child(3){width:216px; font-size:12px; line-height:46px; text-align:center; background:#ededed; border-bottom:3px solid #ac2d1a;}
+.right p:nth-child(2) a{color:#fefefe;}
+.right p:nth-child(3) a{color:#434444;}
+.right p:hover{background:#ac2d1a;}
+.right p:hover a{ color:#fefefe;}
+.right h3{font-family:Impact; font-size:20px; line-height:50px; color:#ac2d1a; width:216px; text-align:center; border-bottom:3px solid #e1e2e2;}
+.right li{background:url(../images/pic_16.jpg) no-repeat left center; font-size:14px; line-height:42px; padding-left:14px; border-bottom:1px solid #e1e2e2;}
+.right li a{color:#555555;}
+.right li:hover a{color:#ac2d1a; text-decoration:underline;}
+
+.content{width:1001px; margin:0 auto; margin-bottom:40px;}
+.content h2{font-weight:normal; font-size:14px; line-height:30px; margin-left:20px; color:#333333;}
+.content h2 a{color:#ac2d1a;}
+.content h2:hover a{text-decoration:underline;}
+.content p{font-size:14px; line-height:30px; margin-left:47px; color:#333333;}
+.content p a{color:#ac2d1a;}
+.content p:hover a{text-decoration:underline;}

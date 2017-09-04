@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{width:1001px; margin:0 auto;}
+/*content left*/
+.content .left{float:left; width:755px;}
+.content .left .crumb{padding-top:36px; padding-bottom:25px; font-size:14px; color:#706e6d;}
+.content .left .crumb a{display:inline-block; color:#706e6d; padding-left:7px; padding-right:6px;}
+.content .left .crumb a:hover{text-decoration:underline;}
+.content .left .crumb span{color:#ac2c19; font-size:12px;}
+.content .left h2{width:373px; font-size:20px; color:#ac2d19; border-bottom:2px solid #ac2d19; padding-bottom:7px;}
+.content .left h2 span{font-size:16px; padding-left:5px; color:#555555;}
+.content .left .top{padding-top:49px; padding-left:35px; border-top:1px solid #e0e0e0;}
+.content .left .top h3{font-size:16px; color:#323233; height:24px; line-height:24px; text-align:center;}
+.content .left .top p{height:44px; line-height:44px; font-size:12px; color:#9b9a98; padding-left:24px;}
+.content .left .top p a{display:inline-block; color:#418ea3;}
+.content .left .top p a:hover{color:#23527c; text-decoration:underline;}
+
+.content .left .normal{ border-bottom:1px solid #9b9a98; margin-left:35px; margin-right:35px;}
+.content .left .normal p{color:#33312f;}
+.content .left .normal p:nth-child(1){padding-bottom:30px;}
+.content .left .normal p img{padding-left:67px;  padding-bottom:30px;}
+.content .left .normal p:nth-child(5){padding-bottom:30px;}
+.content .left .normal p:nth-child(4){padding-bottom:30px;}
+
+.content .left .bottom{padding-bottom:56px; padding-left:35px;}
+.content .left .bottom p{font-size:14px; color:323233;}
+.content .left .bottom p a{color:#ac2d19; display:inline-block;}
+.content .left .bottom p a:hover{text-decoration:underline;}
+.content .left .bottom p:nth-child(1){line-height:36px;}
+
+/*content right*/
+.content .right{width:216px; float:right; padding-top:31px;}
+.content .right h2{font-size:22px; text-align:center; color:#fefefe; background:#ac2d19; height:64px; line-height:64px; border-bottom:2px solid #67190b;}
+.content .right h3{height:46px; line-height:46px; text-align:center; font-size:14px; font-weight:normal; border-bottom:3px solid #ac2d19;}
+.content .right h3 a{color:#4e4b49; background:#ededed;}
+.content .right h3 a:hover{background:#ac2d19; color:#fefefe;}
+.content .right h4{ text-align:center; padding-top:21px; height:51px; line-height:51px; text-align:center; font-size:20px; border-bottom:3px solid #e6e5e6; color:#ac2d19; font-weight:normal; margin-bottom:7px;}
+.content .right ul li{height:33px; line-height:33px; border-bottom:1px solid #e6e5e6; padding-left:15px; background:url(../images/img_29.jpg) no-repeat 1px center; color:#323239;}
+.content .right ul li a{color:#555555; font-size:14px;}
+.content .right ul li a:hover{color:#962119; text-decoration:underline;}
+

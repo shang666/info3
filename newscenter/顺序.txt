@@ -1,0 +1,29 @@
+集团新闻：
+1	chieftech
+2	execonline
+3	traincamp
+4	recruit
+5	feed
+6	busanaly
+7	lktrain
+8	fullmeet
+9	jining
+10	broiler
+11	dehui
+12	prize
+13	qingyang
+14	shennong
+15	strategy
+
+
+分公司新闻：
+1	football
+2	speech
+3	tianjin
+4	jilin
+5	heilong
+6	cangzhou
+7	gansu
+8	lingyuan
+9	internship
+10	

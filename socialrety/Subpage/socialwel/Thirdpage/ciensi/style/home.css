@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{width:1001px; margin:0 auto; margin-top:35px;}
+.left{width:747px; margin-bottom:29px; float:left;}
+.left .subnav a{font-family:Impact; font-size:12px; display:inline-block; color:#717670; line-height:40px;}
+.left .subnav a:hover{text-decoration:underline;}
+.left .subnav a:nth-child(5){color:#ac2d1a; text-decoration:none;}
+.left h2{width:182px; line-height:42px; font-size:20px; color:#ac2d1a; border-bottom:2px solid #ac2d1a;}
+.left h3{font-size:18px; line-height:36px; color:#333333; text-align:center; padding-top:44px; border-top:1px solid #e1e1e1;}
+.left .top p{font-size:12px; line-height:30px; color:#999999; text-align:center;}
+.left .top p a{display:inline-block; color:#337ab7l}
+.left .top p a:hover{color:#23527c; text-decoration:underline;}
+
+.left .normal p{ line-height:32px; color:#333333; margin-left:35px;}
+.left .normal p:nth-child(1){line-height:46px; padding-bottom:20px;}
+.left .normal p:nth-child(2),.left .normal p:nth-child(3){padding-bottom:28px;}
+.left .normal p:nth-child(18){padding-top:28px; padding-bottom:28px; text-align:right; border-bottom:1px solid #999999;}
+
+.left .bottom{margin-top:5px; margin-left:35px;}
+.left .bottom p{font-size:14px; line-height:24px; color:#333333;}
+.left .bottom p a{display:inline-block; color:#ac2d1a; }
+.left .bottom p a:hover{text-decoration:underline;}
+
+
+.right{float:left; width:220px; margin-left:30px; margin-top:10px;}
+.right h2{width:216px; font-size:22px; line-height:68px; color:#fefefe; text-align:center; background:#ac2d1a; border-bottom:2px solid #6b1e15;}
+.right p:nth-child(2){width:216px; font-size:12px; line-height:46px; text-align:center; background:#ac2d1a; border-bottom:1px solid #fefefe;}
+.right p:nth-child(3){width:216px; font-size:12px; line-height:46px; text-align:center; background:#ededed; border-bottom:3px solid #ac2d1a;}
+.right p:nth-child(2) a{color:#fefefe;}
+.right p:nth-child(3) a{color:#434444;}
+.right p:hover{background:#ac2d1a;}
+.right p:hover a{ color:#fefefe;}
+.right h3{font-family:Impact; font-size:20px; line-height:50px; color:#ac2d1a; width:216px; text-align:center; border-bottom:3px solid #e1e2e2;}
+.right li{background:url(../image/pic_09.jpg) no-repeat left center; font-size:14px; line-height:42px; padding-left:14px; border-bottom:1px solid #e1e2e2;}
+.right li a{color:#555555;}
+.right li:hover a{color:#ac2d1a; text-decoration:underline;}
+
+

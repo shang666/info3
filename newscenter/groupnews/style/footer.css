@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*root*/
+.root{ width:100%; height:179px; background:#5e5e5e; }
+.root .footer{ width:1001px; height:145px; margin:0 auto; padding:20px 0 14px 0;}
+.root .footer .copyright, .callus, .network, .share{ float:left; height:145px; border-right:1px solid #7a7a7a;}
+.root .footer .copyright{ width:248px; }
+.root .footer .copyright p{ line-height:31px; font-size:12px; color:#fff; margin-bottom:9px;}
+.root .footer .copyright p a{font-size:12px; color:#fff; }
+.root .footer .copyright p a:hover{text-decoration:underline;}
+.root .footer .network{ width:136px; text-align:center;  }
+.root .footer .network a{display:block;  height:30px; line-height:30px; font-size:12px; color:#fff;}
+.root .footer .network a:hover{ text-decoration:underline;}
+.root .footer .share{ width:298px;}
+.root .footer .share h4, .callus h4{ font-size:12px; color:#fff; height:22px; line-height:22px; padding-left:44px;}
+.root .footer .share a{ float:left; margin-right:10px; margin-top:24px;}
+.root .footer .callus{ width:316px; border-right:0;}
+.root .footer .callus p{ line-height:30px; font-size:12px; color:#fff; margin-left:44px;}
+.root .footer .callus h4 a{ font-size:14px; color:#fff;}
+.root .footer .callus h4 a:hover{ text-decoration:underline;}

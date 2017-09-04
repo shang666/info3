@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header开始*/
+body{background:url(images/img_02.jpg) no-repeat center 166px;}
+.header{ width:1001px; height:116px; margin:0 auto;  position:relative; }
+.header .logo{  width:300px;padding-top:20px; position:relative; }
+.header p{height:15px;line-height:15px; width:345px;position: absolute;top: 76px;left: 640px;}
+.header p a{ display:inline-block; text-align:center; font-size:12px; color:#666666; width:77px; background:url(model/model_08.jpg) no-repeat right 2px;}
+.header p a:hover{ text-decoration:underline; }
+.header p .wechat .pic{ display:none; position:absolute; z-index:1000;  }
+.header p .wechat:hover .pic{ display:block;}
+.header .logo .white{ width:447px; height:79px; background:rgba(255,255,255,0.5); display:none; position:absolute; top:0; left:0;}
+.header .logo:hover .white{ display:block;}
+.header form{width: 99px;height: 27px;position: absolute;top: 35px;left: 883px;}
+.header form select{ width:97px; height:25px; border:1px solid #cccccc; font-size:12px; color:#666666;}
+.header form select:hover{ cursor:pointer;}
+.menu{ background:#ac2d1a; width:100%; height:50px;}
+.menu .nav{ width:1001px; height:50px; margin:0 auto; position:relative;}
+.menu .nav ul li{ width:108px; float:left; height:50px; line-height:50px;}
+.menu .nav ul li:hover{ background:rgba(126,124,122,0.7);}
+.menu .nav ul li a{  color:#fff; text-align:center; font-size:12px;}
+.menu .nav ul li div{ border:1px solid #6a6662; width:108px; padding:0 25px 0 25px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; background:rgba(111,110,108,0.6); padding-bottom:17px; display:none;}
+.menu .nav ul li div a{ height:38px; text-align:left;  line-height:38px; border-bottom:1px solid #fff; color:#fff;}
+.menu .nav ul li:hover div{ display:block;}
+.menu .nav ul li div a:hover{ border-bottom:1px solid #ac2d1a; color:#ac2d1a;}
+.menu .nav form{width:153px;height:27px;background:#FFF; position:absolute;left:823px ;top:12px;}
+.menu .nav form input{height:25px;width:141px; font-size:12px; color:#999999; padding-left:12px; border:1px solid #cccccc;}
+.menu .nav form img{ position:absolute;left:130px ;top:6px;}
+/*header结束*/
+
+/*banner 开始*/
+.banner{width:100%; height:271px; background:#bbac71;}
+.banner img{margin:0 auto;}
+
+/*subnav开始*/
+.subnav{width:1001px; margin:0 auto;font-size:14px; color:#6e6e6e;}
+.subnav a{display:inline-block; font-size:14px; color:#6e6e6e; font-family:"黑体";}
+.subnav a:hover{ text-decoration:underline; color:inherit;}
+
+/*Business开始*/
+.Business{width:1050px; margin:35px auto 0 auto;}
+.Business .left,.Business .right{float:left;}
+.Business .left{width:792px; padding-bottom:50px;}
+.Business .left h2{width:230px; line-height:43px; font-size:22px; color:#ac2d1a; padding-top:30px; border-bottom:2px solid #ac2d1a;}
+.Business .left h2 span{font-size:18px; color:#555; padding-left:5px;}
+
+.Business .left>p{width:755px; font-size:14px; color:#333333; border-top:1px solid #e1e1e1; line-height:30px; padding-top:25px; text-indent:28px;}
+.Business .left ul{width:758px; padding:35px 34px 32px 0;}
+.Business .left ul li{width:223px; height:254px; float:left; margin-right:22px; text-align:left; }
+.Business .left ul li:nth-child(3){margin-right:0;}
+.Business .left ul li p{width:223px; line-height:21px; font-size:12px; color:#595959; padding:10px 0 17px 0;}
+
+
+.Business .right{width:227px;}
+.Business .right .right_nav h2{width:227px; height:72px; line-height:72px; border-bottom:2px solid #771201; background:#ac2d1a; font-size:24px; color:#fff; text-align:center;}
+.Business .right .right_nav ul li{width:227px; height:47px; line-height:47px; text-align:center;  margin-bottom:1px; background:#ededed;}
+.Business .right .right_nav ul li a{ display:block; font-size:14px; color:#444444;}
+.Business .right .right_nav ul li a:hover{color:#fff; background:#ac2d1a;}
+.Business .right .right_news h2{width:227px; height:54px; line-height:54px; padding-top:21px; font-size:22px; color:#ac2d1a;text-align:center; font-family:"宋体"; border-bottom:3px solid #e6e6e6;}
+.Business .right .right_news ul li{width:211px; height:35px; line-height:35px; border-bottom:1px solid #e1e1e1; padding-left:16px; background:url(images/pic.jpg) no-repeat 1px center;}
+.Business .right .right_news ul li a{font-size:14px; color:#555555;}
+.Business .right .right_news ul li a:hover{color:#ac2d1a; text-decoration:underline;}
+
+/*footer开始*/
+.root{ width:100%; height:179px; background:#5e5e5e; }
+.root .footer{ width:1001px; height:145px; margin:0 auto; padding:20px 0 14px 0;}
+.root .footer .copyright, .callus, .network, .share{ float:left; height:145px; border-right:1px solid #7a7a7a;}
+.root .footer .copyright{ width:248px; }
+.root .footer .copyright p{ line-height:31px; font-size:12px; color:#fff; margin-bottom:9px;}
+.root .footer .copyright p a{font-size:12px; color:#fff; }
+.root .footer .copyright p a:hover{text-decoration:underline;}
+.root .footer .network{ width:136px; text-align:center;  }
+.root .footer .network a{display:block;  height:30px; line-height:30px; font-size:12px; color:#fff;}
+.root .footer .network a:hover{ text-decoration:underline;}
+.root .footer .share{ width:298px;}
+.root .footer .share h4, .callus h4{ font-size:12px; color:#fff; height:22px; line-height:22px; padding-left:44px;}
+.root .footer .share a{ float:left; margin-right:10px; margin-top:24px;}
+.root .footer .callus{ width:316px; border-right:0;}
+.root .footer .callus p{ line-height:30px; font-size:12px; color:#fff; margin-left:44px;}
+.root .footer .callus h4 a{ font-size:14px; color:#fff;}
+.root .footer .callus h4 a:hover{ text-decoration:underline;}
+
+
+
+
+
+
+

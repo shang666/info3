@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.header{ width:1001px; height:116px; margin:0 auto;  position:relative;}
+.header .logo{ padding-top:20px; position:relative; width:300px; }
+.header p{height:15px;line-height:15px; width:345px;position: absolute;top: 76px;left: 640px;}
+.header p a{ display:inline-block; text-align:center; font-size:12px; color:#666666; width:77px; background:url(model/model_08.jpg) no-repeat right 2px;}
+.header p a:hover{ text-decoration:underline; }
+.header p .wechat .pic{ display:none; position:absolute; z-index:1000; }
+.header p .wechat:hover .pic{ display:block;}
+.header .logo .white{ width:447px; height:79px; background:rgba(255,255,255,0.5); display:none; position:absolute; top:0; left:0;}
+.header .logo:hover .white{ display:block;}
+.header form{width: 99px;height: 27px;position: absolute;top: 35px;left: 883px;}
+.header form select{ width:97px; height:25px; border:1px solid #cccccc; font-size:12px; color:#666666;}
+.header form select:hover{ cursor:pointer;}
+.menu{ width:100%; background:#ac2d1a; height:50px;}
+.menu .nav{ width:1001px; height:50px; margin:0 auto; position:relative;}
+.menu .nav ul li{ width:108px; float:left; height:50px; line-height:50px;}
+.menu .nav ul li:hover{ background:rgba(126,124,122,0.7);}
+.menu .nav ul li a{color:#fff; text-align:center; font-size:12px;}
+.menu .nav ul li div{ padding-top:10px; border:1px solid #6a6662; width:108px; padding:0 25px 0 25px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; background:rgba(111,110,108,0.6); padding-bottom:17px; display:none;}
+.menu .nav ul li div a{ height:38px; text-align:left;  line-height:38px; border-bottom:1px solid #fff; color:#fff;}
+.menu .nav ul li:hover div{ display:block;}
+.menu .nav ul li div a:hover{ border-bottom:1px solid #ac2d1a; color:#ac2d1a;}
+.menu .nav form{width:153px;height:27px;background:#FFF; position:absolute;left:823px ;top:12px;}
+.menu .nav form input{height:25px;width:141px; font-size:12px; color:#999999; padding-left:12px; border:1px solid #cccccc;}
+.menu .nav form img{ position:absolute;left:130px ;top:6px;}
+
+
+/*main开始*/
+.main{ width:1032px; margin:35px auto 0 auto;}
+.main .left, .right{ float:left;}
+.main .left{ width:662px; margin-right:25px;}
+.main .left h2{ margin-left:12px; height:43px; line-height:43px; width:130px;  border-bottom:2px solid #ac2d1a; font-size:20px; color:#555555;}
+.main .left .culture{ border-bottom:1px solid #e1e1e1; margin-left:12px; border-top:1px solid #e1e1e1; width:650px; padding:21px 0 0 0;}
+.main .left .ban{position:relative;}
+
+.main .left .ban .piao{ width:650px; height:131px; position:absolute; top:0; left:0; background:rgba(255,255,255,0.5); display:none;}
+.main .left .ban:hover .piao{ display:block;}
+.main .left .culture h3{ margin-top:41px; height:84px; font-size:24px; line-height:84px; color:#c00000; font-weight:bolder;}
+.main .left .culture h4{ height:70px; font-size:24px; line-height:70px; color:#c00000; font-weight:bolder;}
+
+.main .left .culture p{ line-height:45px; color:#17365d; font-size:12px;}
+
+
+
+
+
+/*right开始*/
+.main .right{ width:344px; height:485px;}
+.main .right .text{ width:302px; height:400px; padding:27px 21px 17px 21px; background:#f7f7f7;}
+.main .right .text form select{ font-family:"微软雅黑";  background:#fff; margin-bottom:18px; height:32px; width:300px; border:1px solid #cccccc;}
+.main .right .text form input{ font-family:"微软雅黑"; background:#fff; margin-bottom:18px; height:32px; width:300px; border:1px solid #cccccc;}
+.main .right .text h4{ width:104px; height:42px; background:#ac2d1a; line-height:42px; text-align:center;}
+.main .right .text h4 a{ color:#fff; font-size:14px;}
+.main .right .text dl dt{ height:60px; line-height:60px; color:#727272; font-size:18px;}
+.main .right .text dl dd{ font-size:14px; height:30px; padding-left:26px; color:#ac2d1a; background:url(images/recruitpeo_07.jpg) no-repeat 0 center; line-height:30px;}
+.main .right .text dl dd a{ font-size:14px;  color:#ac2d1a;  }
+.main .right .text dl dd a:hover{ text-decoration:underline;}
+
+
+
+
+
+
+.root{ width:100%; height:179px; background:#5e5e5e; margin-top:79px; }
+.root .footer{ width:1001px; height:145px; margin:0 auto; padding:20px 0 14px 0;}
+.root .footer .copyright, .callus, .network, .share{ float:left; height:145px; border-right:1px solid #7a7a7a;}
+.root .footer .copyright{ width:248px; }
+.root .footer .copyright p{ line-height:31px; font-size:12px; color:#fff; margin-bottom:9px;}
+.root .footer .copyright p a{font-size:12px; color:#fff; }
+.root .footer .copyright p a:hover{text-decoration:underline;}
+.root .footer .network{ width:136px; text-align:center;  }
+.root .footer .network a{display:block;  height:30px; line-height:30px; font-size:12px; color:#fff;}
+.root .footer .network a:hover{ text-decoration:underline;}
+.root .footer .share{ width:298px;}
+.root .footer .share h4, .callus h4{ font-size:12px; color:#fff; height:22px; line-height:22px; padding-left:44px;}
+.root .footer .share a{ float:left; margin-right:10px; margin-top:24px;}
+.root .footer .callus{ width:316px; border-right:0;}
+.root .footer .callus p{ line-height:30px; font-size:12px; color:#fff; margin-left:44px;}
+.root .footer .callus h4 a{ font-size:14px; color:#fff;}
+.root .footer .callus h4 a:hover{ text-decoration:underline;}

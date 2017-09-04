@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body img { margin:0 auto;}
+.header{ width:1001px; height:116px; margin:0 auto;  position:relative;}
+.header .logo{ padding-top:20px; position:relative; width:300px; }
+.header p{height:15px;line-height:15px; width:345px;position: absolute;top: 76px;left: 640px;}
+.header p a{ display:inline-block; text-align:center; font-size:12px; color:#666666; width:77px; background:url(model/model_08.jpg) no-repeat right 2px;}
+.header p a:hover{ text-decoration:underline; }
+.header p .wechat .pic{ display:none; z-index:1000; position:absolute; }
+.header p .wechat:hover .pic{display:block;}
+.header .logo .white{ width:447px; height:79px; background:rgba(255,255,255,0.5); display:none; position:absolute; top:0; left:0;}
+.header .logo:hover .white{ display:block;}
+.header form{width: 99px;height: 27px;position: absolute;top: 35px;left: 883px;}
+.header form select{ width:97px; height:25px; border:1px solid #cccccc; font-size:12px; color:#666666;}
+.header form select:hover{ cursor:pointer;}
+.menu{ background:#ac2d1a; width:100%; height:50px;}
+.menu .nav{ width:1001px; height:50px; margin:0 auto; position:relative;}
+.menu .nav ul li{ width:108px; float:left; height:50px; line-height:50px;}
+.menu .nav ul li:hover{ background:rgba(126,124,122,0.7);}
+.menu .nav ul li a{  color:#fff; text-align:center; font-size:12px;}
+.menu .nav ul li div{ border:1px solid #6a6662; width:108px; padding:0 25px 0 25px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; background:rgba(111,110,108,0.6); padding-bottom:17px; display:none;}
+.menu .nav ul li div a{ height:38px; text-align:left;  line-height:38px; border-bottom:1px solid #fff; color:#fff;}
+.menu .nav ul li:hover div{ display:block;}
+.menu .nav ul li div a:hover{ border-bottom:1px solid #ac2d1a; color:#ac2d1a;}
+.menu .nav form{width:153px;height:27px;background:#FFF; position:absolute;left:823px ;top:12px;}
+.menu .nav form input{height:25px;width:141px; font-size:12px; color:#999999; padding-left:12px; border:1px solid #cccccc;}
+.menu .nav form img{ position:absolute;left:130px ;top:6px;}
+
+
+
+<!--root-->
+.root{ width:100%; height:179px; background:#5e5e5e; }
+.root .footer{ width:1001px; height:145px; margin:0 auto; padding:20px 0 14px 0;}
+.root .footer .copyright, .callus, .network, .share{ float:left; height:145px; border-right:1px solid #7a7a7a;}
+.root .footer .copyright{ width:248px; }
+.root .footer .copyright p{ line-height:31px; font-size:12px; color:#fff; margin-bottom:9px;}
+.root .footer .copyright p a{font-size:12px; color:#fff; }
+.root .footer .copyright p a:hover{text-decoration:underline;}
+.root .footer .network{ width:136px; text-align:center;  }
+.root .footer .network a{display:block;  height:30px; line-height:30px; font-size:12px; color:#fff;}
+.root .footer .network a:hover{ text-decoration:underline;}
+.root .footer .share{ width:298px;}
+.root .footer .share h4, .callus h4{ font-size:12px; color:#fff; height:22px; line-height:22px; padding-left:44px;}
+.root .footer .share a{ float:left; margin-right:10px; margin-top:24px;}
+.root .footer .callus{ width:316px; border-right:0;}
+.root .footer .callus p{ line-height:30px; font-size:12px; color:#fff; margin-left:44px;}
+.root .footer .callus h4 a{ font-size:14px; color:#fff;}
+.root .footer .callus h4 a:hover{ text-decoration:underline;}
+.root .footer .copyright img{ float:left;}
+
+<!--main-->
+.mains { width:100%; }
+.main { width:1001px; margin:0 auto;}
+.left {width:755px; float:left; margin-right:30px;}
+.left .navsub { padding-top:21px; height:42px; line-height:42px; font-size:14px; color:#737373; letter-spacing:3px;}
+.left .navsub>a {color:#6b7278; display:inline-block; }
+.left .navsub span { color:#ac2d1a;}
+.left .navsub>a:hover { text-decoration:underline;}
+
+.left h3 { width:80px; height:40px; line-height:40px; font-size:20px; color:#a63106; border-bottom:2px solid #a63106;}
+.left h4 { height:54px; line-height:54px; font-size:16px; padding-top:33px; border-top:1px solid #e1e1e1; text-align:center; color:#333333;}
+.left .xh { text-align:center; height:12px; font-size:12px; color:#999999; margin-bottom:18px;}
+.left .xh>a { display:inline-block; color:#337ab7; width:24px; margin-right:4px;}
+.left .xh>a:hover {text-decoration:underline;}
+.left .xh>a:active { border:1px dotted #000000;}
+.left .wenben {margin-left:36px;  margin-right:35px; border-bottom:1px solid #999999; padding-bottom:5px; }
+.left .wenben p { padding:0px 24px 24px 24px; color:#333333;} 
+.left .wenben p span { color:#F03; font-weight:bolder;}
+.left .weibu { margin-left:35px;  padding-top:6px; line-height:24px; font-size:12px; color:#333333; padding-bottom:39px;}
+.left .weibu a { display:inline-block; color:#ac2d1a;}
+.left .weibu a:hover { text-decoration:underline;}
+.left .weibu a:active { border:1px dotted #000000;}
+
+.right { width:215px; float:left;}
+.right h2 { width:215px; height:68px; line-height:68px; font-size:22px; color:#fffdf4; background:#ac2d1a; text-align:center; border-top:1px solid #7e423a; margin-top:32px;}
+.right>a {  border-top:2px solid #840c00; width:215px; height:45px; line-height:45px; color:#fffdf4; background:#ac2d1a; text-align:center;}
+.right .one { background:#ededed; border-top:1px solid #fffeff; color:#514a2e; border-bottom:3px solid #ac2d1a;}
+.right .one:hover { color:#fffdf4; background:#ac2d1a;}
+.right h3 { padding-top:20px; height:52px; line-height:52px; color:#ac2d1a; font-size:20px; border-bottom:3px solid #e5e5e5; text-align:center; font-weight:100; }
+.right li { font-size:13px; line-height:34px; height:34px; color:#595450; padding-left:20px; background:url(../images/pic_2_03.jpg) no-repeat 1px center; border-bottom:1px solid #e1e0e5;}
+.right li a{ color:#595450;}
+.right li a:hover { color:#ac2d1a; text-decoration:underline;}

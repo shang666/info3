@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery自适应全屏BANNER焦点图 - 站长素材</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/superslide.2.1.js"></script>
+<link href="js/style/base.css"rel="stylesheet" type="text/css">
+<link href="js/style/jiaodian.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<style type="text/css">		
+</style>
+
+<div class="fullSlide">
+	<div class="bd">
+		<ul>
+			<li style="background:center 0 no-repeat;">
+                <img src="images/img_d1.jpg" width="100%" height="488" />
+                <a href="#"></a>
+            </li>
+            <li style="background:center 0 no-repeat;">
+                <img src="images/img_d2.gif" width="100%" height="488" />
+                <a href="#"></a>
+            </li>
+            <li style="background:center 0 no-repeat;">
+                <img src="images/img_d3.jpg" width="100%" height="488" />
+                <a href="#"></a>
+            </li>
+            <li style="background:center 0 no-repeat;">
+                <img src="images/img_d4.gif" width="100%" height="488" />
+                <a href="#"></a>
+            </li>
+			
+			
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+	<span class="prev"></span>
+	<span class="next"></span>
+</div><!--fullSlide end-->
+  
+  
+<script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+</body>
+</html>

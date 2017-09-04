@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.header{ width:1001px; height:116px; margin:0 auto;  position:relative;}
+.header .logo{ padding-top:20px; position:relative; width:300px;  }
+.header p{height:15px;line-height:15px; width:345px;position: absolute;top: 76px;left: 640px;}
+.header p a{ display:inline-block; text-align:center; font-size:12px; color:#666666; width:77px; background:url(model/model_08.jpg) no-repeat right 2px;}
+.header p a:hover{ text-decoration:underline; }
+.header p .wechat .pic{ display:none; position:absolute; z-index:1000; }
+.header p .wechat:hover .pic{ display:block;}
+.header .logo .white{ width:447px; height:79px; background:rgba(255,255,255,0.5); display:none; position:absolute; top:0; left:0;}
+.header .logo:hover .white{ display:block;}
+.header form{width: 99px;height: 27px;position: absolute;top: 35px;left: 883px;}
+.header form select{ width:97px; height:25px; border:1px solid #cccccc; font-size:12px; color:#666666;}
+.header form select:hover{ cursor:pointer;}
+.menu{ width:100%; background:#ac2d1a; height:50px;}
+.menu .nav{ width:1001px; height:50px; margin:0 auto; position:relative;}
+.menu .nav ul li{ width:108px; float:left; height:50px; line-height:50px;}
+.menu .nav ul li:hover{ background:rgba(126,124,122,0.7);}
+.menu .nav ul li a{color:#fff; text-align:center; font-size:12px;}
+.menu .nav ul li div{ padding-top:10px; border:1px solid #6a6662; width:108px; padding:0 25px 0 25px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; background:rgba(111,110,108,0.6); padding-bottom:17px; display:none;}
+.menu .nav ul li div a{ height:38px; text-align:left;  line-height:38px; border-bottom:1px solid #fff; color:#fff;}
+.menu .nav ul li:hover div{ display:block;}
+.menu .nav ul li div a:hover{ border-bottom:1px solid #ac2d1a; color:#ac2d1a;}
+.menu .nav form{width:153px;height:27px;background:#FFF; position:absolute;left:823px ;top:12px;}
+.menu .nav form input{height:25px;width:141px; font-size:12px; color:#999999; padding-left:12px; border:1px solid #cccccc;}
+.menu .nav form img{ position:absolute;left:130px ;top:6px;}
+
+
+
+
+
+/*main开始*/
+.main{ width:1032px; margin:35px auto 0 auto;}
+.main form p{ border-bottom:1px solid #e0e0e0; height:34px; line-height:34px; padding:15px 0 15px 0;}
+.main form p label{ font-weight:bold;width:182px; padding-right:21px; height:34px; color:#b23219; text-align:right; float:left;}
+.main form p input[type="text"]{ float:left; margin-right:48px; width:233px; height:32px; border:1px solid #cccccc;}
+.main form p span{float:left;}
+.main form{ border:1px solid #e0e0e0;}
+.main textarea{ width:725px; height:116px; border:1px solid #e0e0e0; }
+.main form p:last-child{ text-align:center;}
+.main form p input[type="submit"]{ width:156px; height:34px; font-size:12px; color:#fff; background:#ac2d1a; text-align:center; height:34px; border:0; }
+.main form select{ width:233px; height:32px; border:1px solid #cccccc; background:#fff;}
+.main h2{ font-size:20px; color:#4e4e4e; text-align:center; height:75px; line-height:75px; margin-top:9px;}
+
+
+
+.root{ width:100%; height:179px; background:#5e5e5e; margin-top:79px; }
+.root .footer{ width:1001px; height:145px; margin:0 auto; padding:20px 0 14px 0;}
+.root .footer .copyright, .callus, .network, .share{ float:left; height:145px; border-right:1px solid #7a7a7a;}
+.root .footer .copyright{ width:248px; }
+.root .footer .copyright p{ line-height:31px; font-size:12px; color:#fff; margin-bottom:9px;}
+.root .footer .copyright p a{font-size:12px; color:#fff; }
+.root .footer .copyright p a:hover{text-decoration:underline;}
+.root .footer .network{ width:136px; text-align:center;  }
+.root .footer .network a{display:block;  height:30px; line-height:30px; font-size:12px; color:#fff;}
+.root .footer .network a:hover{ text-decoration:underline;}
+.root .footer .share{ width:298px;}
+.root .footer .share h4, .callus h4{ font-size:12px; color:#fff; height:22px; line-height:22px; padding-left:44px;}
+.root .footer .share a{ float:left; margin-right:10px; margin-top:24px;}
+.root .footer .callus{ width:316px; border-right:0;}
+.root .footer .callus p{ line-height:30px; font-size:12px; color:#fff; margin-left:44px;}
+.root .footer .callus h4 a{ font-size:14px; color:#fff;}
+.root .footer .callus h4 a:hover{ text-decoration:underline;}
